@@ -1,0 +1,13 @@
+{
+    "name": "diatem-net/twig_loadblock",
+    "description": "Render a block in twig",
+    "type": "drupal-module",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Jean-Luc Fritz",
+            "role": "jlfritz@diatem.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}

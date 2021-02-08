@@ -1,0 +1,6 @@
+services:
+  twig_dateformat.twig.LoadBlock:
+    arguments: ['@renderer']
+    class: Drupal\twig_loadblock\TwigExtension\LoadBlock
+    tags:
+      - { name: twig.extension }

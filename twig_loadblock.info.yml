@@ -1,0 +1,7 @@
+name: Twig Load Drupal Block
+type: module
+description: 'Load Drupal Block in Twig.'
+package: Diatem
+core_version_requirement: ^8.8 || ^9
+interface translation project: twig_loadblock
+interface translation server pattern: modules/custom/twig_loadblock/translations/twig_loadblock-%version.%language.po
