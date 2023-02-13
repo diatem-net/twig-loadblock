@@ -2,9 +2,11 @@
 
 namespace Drupal\twig_loadblock\TwigExtension;
 
+use Twig\TwigFunction;
+use Twig\Extension\AbstractExtension;
 use Drupal\block\Entity\Block;
 
-class LoadBlock extends \Twig_Extension
+class LoadBlock  extends AbstractExtension 
 {
 
   /**
@@ -20,7 +22,7 @@ class LoadBlock extends \Twig_Extension
     public function getFunctions()
     {
         return array(
-            new \Twig_SimpleFunction(
+            new TwigFunction(
               'loadBlock',
               array($this, 'loadBlock'),
               array('is_safe' => array('html'))
